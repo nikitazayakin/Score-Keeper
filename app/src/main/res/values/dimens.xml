@@ -11,4 +11,5 @@
     <dimen name="liner_layout_margin_left_rigth">24dp</dimen>
     <dimen name="size_secondary_name">12sp</dimen>
     <dimen name="size_secondaty_quantity">16sp</dimen>
+    <dimen name="ball_square_image_side">80dp</dimen>
 </resources>
