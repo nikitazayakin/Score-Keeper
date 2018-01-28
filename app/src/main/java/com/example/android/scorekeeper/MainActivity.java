@@ -106,34 +106,42 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void addGoalTeamA(View view) {
-        displayGoalForTeamA(++goalTeamA);
+        goalTeamA++;
+        displayGoalForTeamA(goalTeamA);
     }
 
     public void addFoulTeamA(View view) {
-        displayFoulsForTeamA(++foulTeamA);
+        foulTeamA++;
+        displayFoulsForTeamA(foulTeamA);
     }
 
     public void addYellowCardTeamA(View view) {
-        displayYellowsForTeamA(++yellowCardTeamA);
+        yellowCardTeamA++;
+        displayYellowsForTeamA(yellowCardTeamA);
     }
 
     public void addRedCardTeamA(View view) {
-        displayRedsForTeamA(++redCardTeamA);
+        redCardTeamA++;
+        displayRedsForTeamA(redCardTeamA);
     }
 
     public void addGoalTeamB(View view) {
-        displayGoalForTeamB(++goalTeamB);
+        goalTeamB++;
+        displayGoalForTeamB(goalTeamB);
     }
 
     public void addFoulTeamB(View view) {
-        displayFoulsForTeamB(++foulTeamB);
+        foulTeamB++;
+        displayFoulsForTeamB(foulTeamB);
     }
 
     public void addYellowCardTeamB(View view) {
-        displayYellowsForTeamB(++yellowCardTeamB);
+        yellowCardTeamB++;
+        displayYellowsForTeamB(yellowCardTeamB);
     }
 
     public void addRedCardTeamB(View view) {
-        displayRedsForTeamB(++redCardTeamB);
+        redCardTeamB++;
+        displayRedsForTeamB(redCardTeamB);
     }
 }
