@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="linear_layout_margin">16dp</dimen>
+    <dimen name="linear_layout_margin_top_bottom">16dp</dimen>
+    <dimen name="between_elements_space">16dp</dimen>
+    <dimen name="top_elements_space">8dp</dimen>
+    <dimen name="button_left_right_padding">16dp</dimen>
+    <dimen name="button_bottom_margin">16dp</dimen>
+    <dimen name="size_team_name">14sp</dimen>
+    <dimen name="size_team_score">36sp</dimen>
+    <dimen name="liner_layout_margin_left_rigth">24dp</dimen>
+    <dimen name="size_secondary_name">12sp</dimen>
+    <dimen name="size_secondaty_quantity">16sp</dimen>
+</resources>
