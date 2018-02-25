@@ -105,41 +105,89 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(points));
     }
 
+    /**
+     * Team A Goal button onClickListener
+     * Adds 1 Score to Team A and displays result on screen
+     *
+     * @param view
+     */
     public void addGoalTeamA(View view) {
         goalTeamA++;
         displayGoalForTeamA(goalTeamA);
     }
 
+    /**
+     * Team A Foul button onClickListener
+     * Adds 1 to foul of Team A and displays result on screen
+     *
+     * @param view
+     */
     public void addFoulTeamA(View view) {
         foulTeamA++;
         displayFoulsForTeamA(foulTeamA);
     }
 
+    /**
+     * Team A Yellow button onClickListener
+     * Adds 1 to yellow cards of Team A and displays result on screen
+     *
+     * @param view
+     */
     public void addYellowCardTeamA(View view) {
         yellowCardTeamA++;
         displayYellowsForTeamA(yellowCardTeamA);
     }
 
+    /**
+     * Team A Red button onClickListener
+     * Adds 1 to red cards of Team A and displays result on screen
+     *
+     * @param view
+     */
     public void addRedCardTeamA(View view) {
         redCardTeamA++;
         displayRedsForTeamA(redCardTeamA);
     }
 
+    /**
+     * Team B Goal button onClickListener
+     * Adds 1 Score to Team B and displays result on screen
+     *
+     * @param view
+     */
     public void addGoalTeamB(View view) {
         goalTeamB++;
         displayGoalForTeamB(goalTeamB);
     }
 
+    /**
+     * Team B Foul button onClickListener
+     * Adds 1 to foul of Team B and displays result on screen
+     *
+     * @param view
+     */
     public void addFoulTeamB(View view) {
         foulTeamB++;
         displayFoulsForTeamB(foulTeamB);
     }
 
+    /**
+     * Team B Yellow button onClickListener
+     * Adds 1 to yellow cards of Team B and displays result on screen
+     *
+     * @param view
+     */
     public void addYellowCardTeamB(View view) {
         yellowCardTeamB++;
         displayYellowsForTeamB(yellowCardTeamB);
     }
 
+    /**
+     * Team B Red button onClickListener
+     * Adds 1 to red cards of Team B and displays result on screen
+     *
+     * @param view
+     */
     public void addRedCardTeamB(View view) {
         redCardTeamB++;
         displayRedsForTeamB(redCardTeamB);
